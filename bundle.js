@@ -29577,7 +29577,7 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 exports.Todo = Todo;
-exports.TodoList = TodoList;
+exports.ActivityList = ActivityList;
 
 var _react = __webpack_require__(24);
 
@@ -29604,7 +29604,7 @@ function Todo(props) {
   }
 }
 
-function TodoList(props) {
+function ActivityList(props) {
   var todos = props.todos,
       toggleTodo = props.toggleTodo,
       addTodo = props.addTodo;
@@ -29631,6 +29631,15 @@ function TodoList(props) {
   return _react2.default.createElement(
     'div',
     { className: 'todo' },
+    _react2.default.createElement(
+      'header',
+      { className: 'header' },
+      _react2.default.createElement(
+        'h2',
+        null,
+        'My activity list'
+      )
+    ),
     _react2.default.createElement('input', { type: 'text',
       className: 'todo__entry',
       placeholder: 'Add new activity',

@@ -3,6 +3,13 @@ html, body, input, button {
   font-size: 20px;
 }
 
+.header{
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  padding-bottom: 20px;
+}
+
 .todo__list {
   margin: 0;
   padding: 0;

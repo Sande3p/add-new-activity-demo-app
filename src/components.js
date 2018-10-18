@@ -10,7 +10,7 @@ export function Todo(props) {
   }
 }
 
-export function TodoList(props) {
+export function ActivityList(props) {
   const { todos, toggleTodo, addTodo } = props;
 
   const onSubmit = (event) => {
@@ -29,6 +29,7 @@ export function TodoList(props) {
 
   return (
     <div className='todo'>
+      <header className="header"><h2>My activity list</h2></header>
       <input type='text'
              className='todo__entry'
              placeholder='Add new activity'
