@@ -2,7 +2,7 @@ import { connect } from 'react-redux';
 import * as components from './components';
 import { addTodo, toggleTodo } from './actions';
 
-export const TodoList = connect(
+export const ActivityList = connect(
   function mapStateToProps(state) {
     return { todos: state };
   },
@@ -12,5 +12,5 @@ export const TodoList = connect(
       toggleTodo: id => dispatch(toggleTodo(id))
     };
   }
-)(components.TodoList);
+)(components.ActivityList);
 

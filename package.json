@@ -9,7 +9,6 @@
     "watch": "webpack --watch"
   },
   "dependencies": {
-    "axios": "^0.18.0",
     "http-serve": "^1.0.1",
     "immutable": "^3.8.1",
     "react": "^15.6.1",
